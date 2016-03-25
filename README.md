@@ -1,7 +1,7 @@
 
 #C/嵌入式 SDK
 
-调用MQTT接口有同步和异步两种，异步调用接口时，只能引用MQTTAsync，不能引用MQTTClient,且要把MQTTClient.h和MQTTClient.m从项目中移除，同步调用接口时同理。请根据实际需求选用同步或者异步，调接口需引入dotlink.h和MQTTClient.h(或MQTTAsync.h)头文件。下面是调用MQTT接口完成消息的发布/订阅接口[[DEMO下载地址]()]：
+调用MQTT接口有同步和异步两种，异步调用接口时，只能引用MQTTAsync，不能引用MQTTClient,且要把MQTTClient.h和MQTTClient.m从项目中移除，同步调用接口时同理。请根据实际需求选用同步或者异步，调接口需引入dotlink.h和MQTTClient.h(或MQTTAsync.h)头文件。下面是调用MQTT接口完成消息的发布/订阅接口
 
 >## 初始化
 >### 获取MQTT连接所需信息
